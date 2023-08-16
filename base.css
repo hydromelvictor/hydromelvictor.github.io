@@ -170,7 +170,7 @@ header {
 #my {
 	width: 2.6em;
 	height: 100%;
-	background-image: url('../svg/hydromel.svg');
+	background-image: url('hydromel.svg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	margin-right: .5em;
@@ -256,7 +256,7 @@ aside a:nth-child(2n) {
 #aboutme #this {
 	height: 250px;
 	width: 250px;
-	background-image: url('../img/ph.png');
+	background-image: url('ph.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	border-radius: 4px;
