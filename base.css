@@ -263,13 +263,13 @@ aside a:nth-child(2n) {
 #aboutme div {
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: start;
+	justify-content: center;
 	align-items: center;
 	height: 100%;
 	margin: 4% 0;
 }
 #aboutme div {
-	font-size: 140%;
+	font-size: 145%;
 	font-weight: 600;
 	color: rgb(173, 173, 173);
 }
