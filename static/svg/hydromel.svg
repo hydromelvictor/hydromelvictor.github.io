@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
+    <defs>
+        <linearGradient id="1.2" gradientTransform="rotate(45)">
+                <stop offset="50%" stop-color="dodgerblue" />
+                <stop offset="75%" stop-color="rgb(199, 24, 117)" />
+        </linearGradient>
+    </defs>
+    <path d="M36 18.3L35.7 31
+            A28 38 0 0 0 36 99.3L40 114 32.5 109.5 29 113
+            Q24 110 17.65 102L21 98Q13.6 88 11 75L6 74.5
+            Q4.18 65 5.5 57.5L10.5 57Q13 42 20.5 32.5
+            L17.5 28.5Q24.1 20 29 17L32.5 20.5z" 
+            stroke="url('#1.2')"
+            fill="none" stroke-width="2"/>
+    <path d="M36 18.3L35.7 31 40 31 40 85 50 85 50 70 60 70
+            C55 70 55 60 60 60L50 60 50 25 55 22Q77 15 97 33.5
+            L90.5 16.5Q85 12.5 72.5 10.5L72.5 5.5Q65 4.5 56 5.5
+            L56 10.6Q45 13 36 18.3z" fill="rgb(199, 24, 117)"
+            stroke="rgb(199, 24, 117)"
+            stroke-width="2"/>
+    <path d="M97 33.5L90.5 16.5 97.5 20.5 101.5 17.5
+            Q110.7 25 112 27.7L109 32Q119 47.5 119.4 56.5
+            L124.5 57Q126 65 124.5 72.5L119.4 73
+            Q119 82 110 96.7L113 101Q110 106 102.4 112
+            L97.5 109.5 95 111 95 98.2A28.7 38 0 0 0 97 33.5z"
+            stroke="url('#1.2')"
+            fill="none" stroke-width="2"/>
+    <path d="M95 111L95 98.2 90 98.2 90 45 80 45 80 60 70 60
+            C75 60 75 70 70 70L80 70 80 105 75 109
+            Q55 114 36 99.3L40 114Q54 119.7 56 119.3L57.5 124.5
+            Q65 125.5 73 124.5L75 119Q81 119 95 111z" 
+            stroke="dodgerblue"
+            fill="dodgerblue" stroke-width="2"/>
+    <circle r="5" cx="65" cy="65" stroke="url('#1.2')" 
+        stroke-width="2" fill="none"/>
+</svg>
