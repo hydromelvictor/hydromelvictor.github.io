@@ -253,15 +253,6 @@ aside a:nth-child(2n) {
 #aboutme {
 	background-color: rgb(26, 28, 29);
 }
-#aboutme #this {
-	height: 250px;
-	width: 250px;
-	background-image: url('ph.png');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	border-radius: 4px;
-	opacity: .6;
-}
 #home div {
 	display: flex;
 	flex-flow: column nowrap;
@@ -278,7 +269,7 @@ aside a:nth-child(2n) {
 	margin: 4% 0;
 }
 #aboutme div {
-	font-size: 110%;
+	font-size: 140%;
 	font-weight: 600;
 	color: rgb(173, 173, 173);
 }
