@@ -141,13 +141,14 @@ table {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 body {
 	width: 100%;
 }
 header {
 	width: 100%;
 	background-color: aliceblue;
-	height: 3em;
+	height: 3.5em;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
@@ -168,7 +169,7 @@ header {
 	padding: 1.5em;
 }
 #my {
-	width: 2.6em;
+	width: 3em;
 	height: 100%;
 	background-image: url('hydromel.svg');
 	background-repeat: no-repeat;
@@ -176,8 +177,8 @@ header {
 	margin-right: .5em;
 }
 h1 {
-	font-size: 160%;
-	font-weight: 600;
+	font-size: 140%;
+	font-weight: 500;
 	color: dodgerblue;
 }
 a {
@@ -225,17 +226,13 @@ aside a {
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
-	opacity: .4;
+	opacity: .6;
 }
 aside a:hover {
-	/* background-color: rgb(54,54,54);
-	box-shadow: 1px 1px 2px aliceblue, -1px -1px 2px rgb(199, 24, 117); */
 	opacity: 1;
-
 }
 aside a .bi {
 	font-size: .8em;
-	font-weight: 600;
 }
 aside a:nth-child(2n) {
 	margin: 1em 0;
@@ -245,15 +242,29 @@ aside a:nth-child(2n) {
 }
 .body section {
 	width: 100%;
-	height: calc(100vh - 3em);
+	height: 100vh;
+	padding-top: 3.5em;
 }
 #home {
 	background-color: rgb(39, 45, 52);
 }
+
+#names {
+	font-size: 250%;
+	font-weight: 700;
+	color: dodgerblue;
+	padding: 1em;
+}
+#job {
+	font-size: 180%;
+	font-weight: 700;
+	color: aliceblue;
+	padding: 1em;
+}
 #aboutme {
 	background-color: rgb(26, 28, 29);
 }
-#home div {
+#home .corp, #aboutme .corp {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -261,22 +272,16 @@ aside a:nth-child(2n) {
 	height: 100%;
 }
 #aboutme div {
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
 	margin: 4% 0;
-}
-#aboutme div {
-	font-size: 145%;
-	font-weight: 600;
-	color: rgb(173, 173, 173);
 }
 #aboutme p {
 	max-width: 900px;
 	line-height: 1.3em;
 	padding: 0 .5em;
+	font-size: 145%;
+	font-weight: 600;
+	color: rgb(173, 173, 173);
+	font-family: 'Explora', cursive;
 }
 h2 {
 	font-size: 150%;
@@ -316,6 +321,7 @@ footer h3 {
 	color: gray;
 	font-weight: 700;
 	line-height: 1.5em;
+	font-family: 'Explora', cursive;
 }
 .social div {
 	display: flex;
@@ -328,6 +334,7 @@ footer h3 {
 	align-items: center;
 	margin: .2em;
 	color: dodgerblue;
+	font-family: 'Explora', cursive;
 }
 .social .bi {
 	color: dodgerblue;
@@ -356,4 +363,13 @@ small {
 	font-size: 90%;
 	font-weight: 600;
 	font-style: italic;
+}
+
+@media screen and ((max-width: 760px)) {
+	#names {
+		font-size: 200%;
+	}
+	#aboutme p {
+		font-size: 120%;
+	}
 }
