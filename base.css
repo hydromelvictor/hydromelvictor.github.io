@@ -176,6 +176,14 @@ header {
 	background-size: 100% 100%;
 	margin-right: .5em;
 }
+#me {
+	background-image: url(./ph.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 7em;
+	height: 7em;
+	border-radius: 50%;
+}
 h1 {
 	font-size: 140%;
 	font-weight: 500;
@@ -243,12 +251,22 @@ aside a:nth-child(2n) {
 .body section {
 	width: 100%;
 	height: 100vh;
-	padding-top: 3.5em;
+	/* padding-top: 3.5em; */
 }
 #home {
-	background-color: rgb(39, 45, 52);
+	/* background-color: rgb(39, 45, 52); */
+	background-image: url('./pexels-luis-gomes-546819.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
-
+#home .corp {
+	background-color: rgba(39, 45, 52, 0.734);
+}
+.lle {
+	font-size: 400%;
+	color: rgba(128, 128, 128, 0.438);
+	padding: 0 1em;
+}
 #names {
 	font-size: 250%;
 	font-weight: 700;
@@ -262,7 +280,13 @@ aside a:nth-child(2n) {
 	padding: 1em;
 }
 #aboutme {
-	background-color: rgb(26, 28, 29);
+	/* background-color: rgb(26, 28, 29); */
+	background-image: url(./pexels-photo-5926373.webp);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#aboutme .corp {
+	background-color: rgba(26, 28, 29, 0.77);
 }
 #home .corp, #aboutme .corp {
 	display: flex;
@@ -271,20 +295,21 @@ aside a:nth-child(2n) {
 	align-items: center;
 	height: 100%;
 }
-#aboutme div {
-	margin: 4% 0;
+.cv {
+	color: dodgerblue;
+	font-size: 100%;
 }
 #aboutme p {
 	max-width: 900px;
 	line-height: 1.3em;
-	padding: 0 .5em;
+	padding: 0 1em;
 	font-size: 145%;
 	font-weight: 600;
 	color: rgb(173, 173, 173);
 	font-family: 'Explora', cursive;
 }
 h2 {
-	font-size: 150%;
+	font-size: 200%;
 	line-height: 1.5em;
 	font-weight: 700;
 	color: aliceblue;
@@ -299,7 +324,6 @@ h2 {
 }
 footer h2 {
 	text-align: center;
-	font-size: 150%;
 	font-weight: 700;
 	line-height: 1.5em;
 	color: aliceblue;
