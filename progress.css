@@ -1,0 +1,293 @@
+@keyframes html-progress {
+    to { --progress-value: 80}
+}
+
+.html {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: html-progress 2s 1 forwards;
+}
+
+.html::before {
+    animation: html-progress 2s 1 forwards;
+}
+
+
+@keyframes js-progress {
+    to { --progress-value: 65}
+}
+
+.js {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: js-progress 2s 1 forwards;
+}
+
+.js::before {
+    animation: js-progress 2s 1 forwards;
+}
+
+
+@keyframes rt-progress {
+    to { --progress-value: 55}
+}
+
+.rt {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: rt-progress 2s 1 forwards;
+}
+
+.rt::before {
+    animation: rt-progress 2s 1 forwards;
+}
+
+
+@keyframes ng-progress {
+    to { --progress-value: 52}
+}
+
+.ng {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: ng-progress 2s 1 forwards;
+}
+
+.ng::before {
+    animation: ng-progress 2s 1 forwards;
+}
+
+
+@keyframes fig-progress {
+    to { --progress-value: 61}
+}
+
+.fig {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: fig-progress 2s 1 forwards;
+}
+
+.fig::before {
+    animation: fig-progress 2s 1 forwards;
+}
+
+
+@keyframes svg-progress {
+    to { --progress-value: 81}
+}
+
+.svg {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: svg-progress 2s 1 forwards;
+}
+
+.svg::before {
+    animation: fig-progress 2s 1 forwards;
+}
+
+
+
+
+
+@keyframes py-progress {
+    to { --progress-value: 97}
+}
+
+.py {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: py-progress 2s 1 forwards;
+}
+
+.py::before {
+    animation: py-progress 2s 1 forwards;
+}
+
+
+@keyframes nj-progress {
+    to { --progress-value: 72}
+}
+
+.nj {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: nj-progress 2s 1 forwards;
+}
+
+.nj::before {
+    animation: nj-progress 2s 1 forwards;
+}
+
+
+
+
+@keyframes sq-progress {
+    to { --progress-value: 98}
+}
+
+.sq {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: sq-progress 2s 1 forwards;
+}
+
+.sq::before {
+    animation: sq-progress 2s 1 forwards;
+}
+
+
+@keyframes mq-progress {
+    to { --progress-value: 83}
+}
+
+.mq {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: mq-progress 2s 1 forwards;
+}
+
+.mq::before {
+    animation: mq-progress 2s 1 forwards;
+}
+
+
+@keyframes pq-progress {
+    to { --progress-value: 75}
+}
+
+.pq {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: pq-progress 2s 1 forwards;
+}
+
+.pq::before {
+    animation: pq-progress 2s 1 forwards;
+}
+
+
+@keyframes mg-progress {
+    to { --progress-value: 96}
+}
+
+.mg {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: mg-progress 2s 1 forwards;
+}
+
+.mg::before {
+    animation: mg-progress 2s 1 forwards;
+}
+
+
+@keyframes rd-progress {
+    to { --progress-value: 96}
+}
+
+.rd {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: rd-progress 2s 1 forwards;
+}
+
+.rd::before {
+    animation: rd-progress 2s 1 forwards;
+}
+
+
+
+
+@keyframes dk-progress {
+    to { --progress-value: 46}
+}
+
+.dk {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: dk-progress 2s 1 forwards;
+}
+
+.dk::before {
+    animation: dk-progress 2s 1 forwards;
+}
+
+
+@keyframes bs-progress {
+    to { --progress-value: 55}
+}
+
+.bs {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: bs-progress 2s 1 forwards;
+}
+
+.bs::before {
+    animation: bs-progress 2s 1 forwards;
+}
+
+
+@keyframes pu-progress {
+    to { --progress-value: 61}
+}
+
+.pu {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: pu-progress 2s 1 forwards;
+}
+
+.pu::before {
+    animation: pu-progress 2s 1 forwards;
+}
+
+
+@keyframes gx-progress {
+    to { --progress-value: 55}
+}
+
+.gx {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: gx-progress 2s 1 forwards;
+}
+
+.gx::before {
+    animation: gx-progress 2s 1 forwards;
+}
+
+
+@keyframes ph-progress {
+    to { --progress-value: 72}
+}
+
+.ph {
+    background: 
+      radial-gradient(closest-side, crimson 79%, transparent 80% 100%),
+      conic-gradient(#1e1e1e calc(var(--progress-value) * 1%), pink 0);
+    animation: ph-progress 2s 1 forwards;
+}
+
+.ph::before {
+    animation: ph-progress 2s 1 forwards;
+}
